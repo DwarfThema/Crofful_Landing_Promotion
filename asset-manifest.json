@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Crofful_Landing_Promotion/static/js/main.09dc7df4.js",
+    "main.js": "/Crofful_Landing_Promotion/static/js/main.784f0a7e.js",
     "static/media/grad@1x.svg": "/Crofful_Landing_Promotion/static/media/grad@1x.87dc0adab50d33802aadb2a86e258a44.svg",
     "static/media/crofful-1@2x.svg": "/Crofful_Landing_Promotion/static/media/crofful-1@2x.1a99f1eee2f710ec532ec1583482138d.svg",
     "index.html": "/Crofful_Landing_Promotion/index.html",
     "static/media/line@1x.svg": "/Crofful_Landing_Promotion/static/media/line@1x.b5de60085344c6d98a0722292279a374.svg",
-    "main.09dc7df4.js.map": "/Crofful_Landing_Promotion/static/js/main.09dc7df4.js.map"
+    "main.784f0a7e.js.map": "/Crofful_Landing_Promotion/static/js/main.784f0a7e.js.map"
   },
   "entrypoints": [
-    "static/js/main.09dc7df4.js"
+    "static/js/main.784f0a7e.js"
   ]
 }
