@@ -76,8 +76,8 @@ a {
 
 ReactDOM.render(
   <React.StrictMode>
-    <GlobalStyled />
     <App />
+    <GlobalStyled />
   </React.StrictMode>,
   document.getElementById("root")
 );
