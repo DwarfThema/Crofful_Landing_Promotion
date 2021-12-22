@@ -1,5 +1,7 @@
-import React from "react";
 import styled from "styled-components";
+import logo from "./img/crofful-1@2x.svg";
+import line from "./img/line@1x.svg";
+import bg from "./img/grad@1x.svg";
 
 const FixedBar = styled.div`
   position: fixed;
@@ -9,12 +11,12 @@ const FixedBar = styled.div`
   z-index: 1;
   display: flex;
   align-items: flex-start;
-  min-width: 1170px;
+  min-width: 100%;
   background-color: #ffffff4c;
   backdrop-filter: blur(25px) brightness(100%);
   -webkit-backdrop-filter: blur(25px) brightness(100%);
-  background-image: url(grad.svg);
-  background-size: 100% 100%;
+  background-image: url(${bg});
+  background-size: cover;
 `;
 
 const OverlapGroup = styled.div`
@@ -23,9 +25,9 @@ const OverlapGroup = styled.div`
   display: flex;
   padding: 31.9px 38px;
   align-items: flex-start;
-  min-width: 1170px;
-  background-image: url(line.svg);
-  background-size: 100% 100%;
+  min-width: 100%;
+  background-image: url(${line});
+  background-size: cover;
 `;
 
 const Crofful = styled.img`
@@ -38,7 +40,7 @@ function Header() {
     <>
       <FixedBar>
         <OverlapGroup>
-          <Crofful src="crofful-1.svg" />
+          <Crofful src={logo} />
         </OverlapGroup>
       </FixedBar>
     </>

@@ -63,7 +63,7 @@ body {
   font-weight: 300;
   font-family: "NanumSquareOTF-Regular";
   line-height: 1.2;
-  background-color: black;
+  background-color: white;
   -ms-overflow-style: none;
   ::-webkit-scrollbar { display: none; }
   
