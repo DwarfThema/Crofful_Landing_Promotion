@@ -21,16 +21,17 @@ const FixedBar = styled.div`
 
 const OverlapGroup = styled.div`
   height: 134px;
+  min-width: 100%;
   margin-top: -2px;
   display: flex;
   padding: 31.9px 38px;
   align-items: flex-start;
-  min-width: 100%;
   background-image: url(${line});
   background-size: cover;
 `;
 
 const Crofful = styled.img`
+  position: relative;
   width: 312px;
   height: 70px;
 `;
