@@ -2,30 +2,26 @@ import styled from "styled-components";
 import bg from "./img/bg1@1x.svg";
 import logo from "./img/crofful-1@2x.svg";
 
-const BG1 = styled.img`
-  position: absolute;
-  width: 100%;
-  z-index: -10;
-`;
 
-const Base = styled.div`
-  position: absolute;
-  width: 100%;
+const Page1 = styled.div`
+  height: 1636px;
   display: flex;
   padding: 0 0px;
   align-items: flex-start;
-  min-width: 100%;
+  min-width: 702px;
 `;
 
 const OverlapGroup1 = styled.div`
-  width: 100%;
+  position: absolute;
   margin-top: -0.14px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 541.1px 51.5px;
   align-items: center;
   min-height: 1636px;
+  background-image: url(${bg});
+  background-size: 100% 100%;
+  width: 100%;
 `;
 
 const Crofful = styled.img`
@@ -43,6 +39,10 @@ const OverlapGroup2 = styled.div`
 `;
 
 const SNS = styled.div`
+  color: ${prop=>prop.theme.color.white};
+  font-size: ${prop=>prop.theme.fontSize.xl};
+  font-weight: 800;
+  font-style: normal;
   position: absolute;
   width: 597px;
   top: 0;
@@ -53,14 +53,18 @@ const SNS = styled.div`
 `;
 
 const Span0 = styled.span`
+color: ${prop=>prop.theme.color.white};
+font-size: ${prop=>prop.theme.fontSize.xl};
+font-weight: 800;
+font-style: normal;
   letter-spacing: 0.51px;
 `;
 
 const Span1 = styled.span`
-  font-family: var(--font-family-nanumsquareotf-regular);
-  font-weight: 400;
-  color: var(--white);
-  font-size: var(--font-size-xl);
+color: ${prop=>prop.theme.color.white};
+font-size: ${prop=>prop.theme.fontSize.xl};
+font-weight: 400;
+font-style: normal;
   letter-spacing: 0.51px;
 `;
 
@@ -70,7 +74,7 @@ const Rectangle35 = styled.div`
   height: 2px;
   top: 44px;
   left: 104px;
-  background-color: #ffffff66;
+  background-color: ${prop=>prop.theme.color.white2};
   box-shadow: 0px 4px 8px #653afd33;
 `;
 
@@ -89,7 +93,7 @@ const View = styled.div`
 `;
 
 const OverlapGroup = styled.div`
-  width: 100%;
+  width: 359px;
   height: 103px;
   position: relative;
   margin-bottom: 0;
@@ -101,7 +105,7 @@ const Shadow = styled.div`
   height: 93px;
   top: 10px;
   left: 30px;
-  background-color: #663afe;
+  background-color: ${prop=>prop.theme.color.pupleHeart};
   border-radius: 90px;
   filter: blur(50px);
   opacity: 0.3;
@@ -113,49 +117,47 @@ const Button = styled.div`
   height: 93px;
   top: 0;
   left: 0;
-  background-color: #854cff;
+  background-color: ${prop=>prop.theme.color.pupleHeart};
   border-radius: 90px;
 `;
 
 const Text1 = styled.h1`
+color: ${prop=>prop.theme.color.white};
+font-size: ${prop=>prop.theme.fontSize.l};
+font-weight: 700;
   position: absolute;
   width: 281px;
   top: 31px;
   left: 39px;
-  font-family: var(--font-family-roboto);
-  font-weight: 700;
-  color: var(--white);
-  font-size: var(--font-size-l);
   text-align: center;
   letter-spacing: 0;
 `;
 
-function Page1() {
+function View1() {
   return (
-    <>
-      <Base>
-        <OverlapGroup1>
-          <Crofful src={logo} />
-          <OverlapGroup2>
-            <SNS>
-              <Span0>게임</Span0>
-              <Span1> 속 부캐들을 위한 </Span1>
-              <Span0>SNS</Span0>
-            </SNS>
-            <Rectangle35></Rectangle35>
-          </OverlapGroup2>
-          <View>
-            <OverlapGroup>
-              <Shadow></Shadow>
-              <Button></Button>
-              <Text1>오픈 알림 신청하기</Text1>
-            </OverlapGroup>
-          </View>
-        </OverlapGroup1>
-      </Base>
-      <BG1 src={bg} />
-    </>
+    <Page1>
+<OverlapGroup1>
+        <Crofful
+          src={logo}
+        />
+        <OverlapGroup2>
+          <SNS>
+            <Span0>게임</Span0>
+            <Span1> 속 부캐들을 위한 </Span1>
+            <Span0>SNS</Span0>
+          </SNS>
+          <Rectangle35></Rectangle35>
+        </OverlapGroup2>
+        <View>
+          <OverlapGroup>
+            <Shadow></Shadow>
+            <Button></Button>
+            <Text1>오픈 알림 신청하기</Text1>
+          </OverlapGroup>
+        </View>
+      </OverlapGroup1>
+    </Page1>
   );
 }
 
-export default Page1;
+export default View1;

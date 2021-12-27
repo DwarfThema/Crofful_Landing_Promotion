@@ -1,9 +1,11 @@
-import Page1 from "./Page1";
+import View1 from "./Page1";
+import View2 from "./Page2";
 
 function Main() {
   return (
     <>
-      <Page1 />
+      <View1 />
+      <View2 />
     </>
   );
 }

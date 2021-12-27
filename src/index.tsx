@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
 import App from "./App";
+import { theme } from "./theme";
 
 const GlobalStyled = createGlobalStyle`
   
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:700|Noto+Sans:400,700,600,800");
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 
 html, body, div, span, applet, object, iframe,
@@ -61,7 +62,7 @@ table {
 }
 body {
   font-weight: 300;
-  font-family: "NanumSquareOTF-Regular";
+  font-family: 'NanumSquare', sans-serif;;
   line-height: 1.2;
   background-color: white;
   -ms-overflow-style: none;
@@ -76,8 +77,12 @@ a {
 
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeProvider theme={theme}>
+
     <App />
     <GlobalStyled />
+    
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
