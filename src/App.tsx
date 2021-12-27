@@ -1,10 +1,15 @@
-import Home from "./Routes/Home";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <HashRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
+    </HashRouter>
   );
 }
 

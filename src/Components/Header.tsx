@@ -5,7 +5,8 @@ import bg from "./img/grad@1x.svg";
 
 const FixedBar = styled.div`
   position: fixed;
-  height: 130px;
+  width: 100%;
+  height: 5%;
   top: 0;
   left: 0;
   z-index: 1;
@@ -20,11 +21,10 @@ const FixedBar = styled.div`
 `;
 
 const OverlapGroup = styled.div`
-  height: 134px;
   min-width: 100%;
+  height: 105%;
   margin-top: -2px;
   display: flex;
-  padding: 31.9px 38px;
   align-items: flex-start;
   background-image: url(${line});
   background-size: cover;
@@ -32,8 +32,10 @@ const OverlapGroup = styled.div`
 
 const Crofful = styled.img`
   position: relative;
-  width: 312px;
-  height: 70px;
+  width: 100%;
+  height: 50%;
+  top: 25%;
+  left: -35%;
 `;
 
 function Header() {
