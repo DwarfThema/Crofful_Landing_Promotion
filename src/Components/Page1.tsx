@@ -8,8 +8,9 @@ const Page1 = styled.div`
   height: 1636px;
   display: flex;
   padding: 0 0px;
+  margin-left: 0%;
   align-items: center;
-  width: 100%;
+  width: 200%;
 `;
 
 const OverlapGroup1 = styled.div`

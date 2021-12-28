@@ -11,6 +11,7 @@ const Page4 = styled.div`
   flex-direction: column;
   align-items: center;
   min-width: 704px;
+  width: 200%;
 `;
 
 const OverlapGroup3 = styled.div`

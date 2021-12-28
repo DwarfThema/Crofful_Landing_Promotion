@@ -14,7 +14,7 @@ import minecraft from "../Components/img/minecraft-1@2x.png";
 
 const Page3 = styled.div`
   position: relative;
-  width: 100%;
+  width: 200%;
   display: flex;
   flex-direction: column;
   height: 1458px;
