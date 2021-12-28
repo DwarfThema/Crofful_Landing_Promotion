@@ -1,14 +1,34 @@
 {
   "files": {
-    "main.js": "/Crofful_Landing_Promotion/static/js/main.d88ec23d.js",
-    "static/media/bg1@1x.svg": "/Crofful_Landing_Promotion/static/media/bg1@1x.a6725c2aaa9105349a130b9f6c85ecdf.svg",
-    "static/media/grad@1x.svg": "/Crofful_Landing_Promotion/static/media/grad@1x.87dc0adab50d33802aadb2a86e258a44.svg",
-    "static/media/crofful-1@2x.svg": "/Crofful_Landing_Promotion/static/media/crofful-1@2x.1a99f1eee2f710ec532ec1583482138d.svg",
+    "main.js": "/Crofful_Landing_Promotion/static/js/main.f979a209.js",
+    "static/media/bg1@1x.png": "/Crofful_Landing_Promotion/static/media/bg1@1x.58770b88e0de1cecf8cb.png",
+    "static/media/bg5-1@1x.png": "/Crofful_Landing_Promotion/static/media/bg5-1@1x.d3dab5e1f18f81610767.png",
+    "static/media/mockup2@1x.png": "/Crofful_Landing_Promotion/static/media/mockup2@1x.ef8595b8e2e2425c9f02.png",
+    "static/media/mockup3@1x.png": "/Crofful_Landing_Promotion/static/media/mockup3@1x.35ab430f9a4161b52aac.png",
+    "static/media/mockup1@1x.png": "/Crofful_Landing_Promotion/static/media/mockup1@1x.4beeb1a24c5b86e06c33.png",
+    "static/media/mockup4-1@1x.png": "/Crofful_Landing_Promotion/static/media/mockup4-1@1x.c56c1d6b3246c5718e9a.png",
+    "static/media/character-1@2x.png": "/Crofful_Landing_Promotion/static/media/character-1@2x.2f76e32ee097ff3e209a.png",
+    "static/media/minecraft-1@2x.png": "/Crofful_Landing_Promotion/static/media/minecraft-1@2x.64bf123d94dc10b44157.png",
+    "static/media/animal-crossing-new-horizons---character-artwork-08-1-1@2x.png": "/Crofful_Landing_Promotion/static/media/animal-crossing-new-horizons---character-artwork-08-1-1@2x.b304928cc979fbf35429.png",
+    "static/media/animal-crossing-new-horizons---character-artwork-02-2-1@2x.png": "/Crofful_Landing_Promotion/static/media/animal-crossing-new-horizons---character-artwork-02-2-1@2x.84a96ec921d01034c584.png",
+    "static/media/grad@1x.png": "/Crofful_Landing_Promotion/static/media/grad@1x.efb1201ee34fee193789.png",
+    "static/media/crofful@1x.png": "/Crofful_Landing_Promotion/static/media/crofful@1x.29d5ade0f08b4f6d4bd3.png",
+    "static/media/mask-group-1@2x.png": "/Crofful_Landing_Promotion/static/media/mask-group-1@2x.85fcec6b7e69c0a0a08a.png",
+    "static/media/shadow1-1@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1-1@2x.a3a8f050bd9987be9bf0.png",
+    "static/media/mask-group-2@2x.png": "/Crofful_Landing_Promotion/static/media/mask-group-2@2x.4ff81bfca8a4a1e2ec63.png",
+    "static/media/vector-1@2x.png": "/Crofful_Landing_Promotion/static/media/vector-1@2x.c6783f98f859da853084.png",
+    "static/media/vector@2x.png": "/Crofful_Landing_Promotion/static/media/vector@2x.bf9372e3e41c25fa03ba.png",
+    "static/media/shadow1-4@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1-4@2x.ad9c9c9cb233991b3934.png",
+    "static/media/shadow1@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1@2x.0ed01f6c5ba548e0dd38.png",
+    "static/media/shadow1-14@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1-14@2x.9a61cd24b15bde59bb20.png",
+    "static/media/shadow1-3@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1-3@2x.e79c1d74fe7829a5cad6.png",
+    "static/media/shadow1-5@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1-5@2x.dad79171b44542540e3a.png",
+    "static/media/shadow1-2@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1-2@2x.71ef2889c41b1bf2f37f.png",
+    "static/media/butterfly@2x.png": "/Crofful_Landing_Promotion/static/media/butterfly@2x.d8ef300609b4e3be107b.png",
     "index.html": "/Crofful_Landing_Promotion/index.html",
-    "static/media/line@1x.svg": "/Crofful_Landing_Promotion/static/media/line@1x.b5de60085344c6d98a0722292279a374.svg",
-    "main.d88ec23d.js.map": "/Crofful_Landing_Promotion/static/js/main.d88ec23d.js.map"
+    "main.f979a209.js.map": "/Crofful_Landing_Promotion/static/js/main.f979a209.js.map"
   },
   "entrypoints": [
-    "static/js/main.d88ec23d.js"
+    "static/js/main.f979a209.js"
   ]
 }
