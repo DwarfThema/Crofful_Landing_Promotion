@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import logo from "./img/crofful-1@2x.svg";
-import line from "./img/line@1x.svg";
-import bg from "./img/grad@1x.svg";
+import logo from "./img/crofful-1@2x.png";
+import line from "./img/line@1x.png";
+import bg from "./img/grad@1x.png";
 
 const FixedBar1 = styled.div`
   position: fixed;
@@ -16,7 +16,7 @@ const FixedBar1 = styled.div`
 
 const OverlapGroup = styled.div`
   width: 3044px;
-  height: 71px;
+  height: 130px;
   position: relative;
   margin-top: -2px;
 `;
@@ -24,18 +24,19 @@ const OverlapGroup = styled.div`
 const BgBlur = styled.div`
   position: absolute;
   width: 3044px;
-  height: 65px;
+  height: 110px;
   top: 2px;
   left: 0;
-  background-color: ${prop=>prop.theme.color.white3};
+  background-color: ${(prop) => prop.theme.color.white3};
   backdrop-filter: blur(25px) brightness(100%);
   -webkit-backdrop-filter: blur(25px) brightness(100%);
+  background-size: cover;
 `;
 
 const Grad = styled.img`
   position: absolute;
   width: 3044px;
-  height: 65px;
+  height: 110px;
   top: 2px;
   left: 0;
 `;
@@ -43,16 +44,15 @@ const Grad = styled.img`
 const Line = styled.img`
   position: absolute;
   width: 1897px;
-  height: 71px;
+  height: 110px;
   top: 0;
   left: 0;
 `;
 
 const Crofful = styled.img`
   position: absolute;
-  width: 156px;
-  height: 35px;
-  top: 17px;
+  width: 220px;
+  top: 21%;
   left: 19px;
 `;
 
@@ -61,12 +61,8 @@ function Header() {
     <FixedBar1>
       <OverlapGroup>
         <BgBlur></BgBlur>
-        <Grad
-          src={bg}
-        />
-        <Line
-          src={line}
-        />
+        <Grad src={bg} />
+        <Line src={line} />
         <Crofful src={logo} />
       </OverlapGroup>
     </FixedBar1>

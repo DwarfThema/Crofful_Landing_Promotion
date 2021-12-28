@@ -1,18 +1,18 @@
 import styled from "styled-components";
-import bg from "./img/bg1@1x.svg";
-import logo from "./img/crofful-1@2x.svg";
-
+import bg from "./img/bg1@1x.png";
+import logo from "./img/crofful@1x.png";
 
 const Page1 = styled.div`
+  display: flex;
+  flex-direction: column;
   height: 1636px;
   display: flex;
   padding: 0 0px;
-  align-items: flex-start;
-  min-width: 702px;
+  align-items: center;
+  width: 100%;
 `;
 
 const OverlapGroup1 = styled.div`
-  position: absolute;
   margin-top: -0.14px;
   display: flex;
   flex-direction: column;
@@ -34,13 +34,12 @@ const OverlapGroup2 = styled.div`
   width: 597px;
   height: 58px;
   position: relative;
-  align-self: flex-start;
   margin-top: 21px;
 `;
 
 const SNS = styled.div`
-  color: ${prop=>prop.theme.color.white};
-  font-size: ${prop=>prop.theme.fontSize.xl};
+  color: ${(prop) => prop.theme.color.white};
+  font-size: ${(prop) => prop.theme.fontSize.xl};
   font-weight: 800;
   font-style: normal;
   position: absolute;
@@ -53,18 +52,18 @@ const SNS = styled.div`
 `;
 
 const Span0 = styled.span`
-color: ${prop=>prop.theme.color.white};
-font-size: ${prop=>prop.theme.fontSize.xl};
-font-weight: 800;
-font-style: normal;
+  color: ${(prop) => prop.theme.color.white};
+  font-size: ${(prop) => prop.theme.fontSize.xl};
+  font-weight: 800;
+  font-style: normal;
   letter-spacing: 0.51px;
 `;
 
 const Span1 = styled.span`
-color: ${prop=>prop.theme.color.white};
-font-size: ${prop=>prop.theme.fontSize.xl};
-font-weight: 400;
-font-style: normal;
+  color: ${(prop) => prop.theme.color.white};
+  font-size: ${(prop) => prop.theme.fontSize.xl};
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.51px;
 `;
 
@@ -74,7 +73,7 @@ const Rectangle35 = styled.div`
   height: 2px;
   top: 44px;
   left: 104px;
-  background-color: ${prop=>prop.theme.color.white2};
+  background-color: ${(prop) => prop.theme.color.white2};
   box-shadow: 0px 4px 8px #653afd33;
 `;
 
@@ -105,7 +104,7 @@ const Shadow = styled.div`
   height: 93px;
   top: 10px;
   left: 30px;
-  background-color: ${prop=>prop.theme.color.pupleHeart};
+  background-color: ${(prop) => prop.theme.color.pupleHeart};
   border-radius: 90px;
   filter: blur(50px);
   opacity: 0.3;
@@ -117,14 +116,14 @@ const Button = styled.div`
   height: 93px;
   top: 0;
   left: 0;
-  background-color: ${prop=>prop.theme.color.pupleHeart};
+  background-color: ${(prop) => prop.theme.color.pupleHeart};
   border-radius: 90px;
 `;
 
 const Text1 = styled.h1`
-color: ${prop=>prop.theme.color.white};
-font-size: ${prop=>prop.theme.fontSize.l};
-font-weight: 700;
+  color: ${(prop) => prop.theme.color.white};
+  font-size: ${(prop) => prop.theme.fontSize.l};
+  font-weight: 700;
   position: absolute;
   width: 281px;
   top: 31px;
@@ -136,10 +135,8 @@ font-weight: 700;
 function View1() {
   return (
     <Page1>
-<OverlapGroup1>
-        <Crofful
-          src={logo}
-        />
+      <OverlapGroup1>
+        <Crofful src={logo} />
         <OverlapGroup2>
           <SNS>
             <Span0>게임</Span0>
