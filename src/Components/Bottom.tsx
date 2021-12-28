@@ -4,7 +4,7 @@ const CopyrightPage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 200%;
+  min-width: 100%;
 `;
 
 const OverlapGroup = styled.div`

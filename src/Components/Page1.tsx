@@ -9,6 +9,7 @@ const Page1 = styled.div`
   display: flex;
   padding: 0 0px;
   margin-left: 0%;
+  margin-top: -220px;
   align-items: center;
   width: 200%;
 `;
