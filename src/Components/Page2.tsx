@@ -11,7 +11,6 @@ const Page2 = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  left: 50%;
   min-height: 1149px;
   background-size: 100% 100%;
 `;

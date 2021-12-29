@@ -5,7 +5,7 @@ import bg from "./img/grad@1x.png";
 
 const FixedBar1 = styled.div`
   position: fixed;
-  height: 90px;
+  height: 50px;
   top: 0;
   left: 0;
   z-index: 1;
@@ -16,7 +16,7 @@ const FixedBar1 = styled.div`
 
 const OverlapGroup = styled.div`
   width: 3044px;
-  height: 90px;
+  height: 50px;
   position: relative;
   margin-top: -2px;
 `;
@@ -24,7 +24,7 @@ const OverlapGroup = styled.div`
 const BgBlur = styled.div`
   position: absolute;
   width: 3044px;
-  height: 90px;
+  height: 50px;
   top: 2px;
   left: 0;
   background-color: ${(prop) => prop.theme.color.white3};
@@ -36,7 +36,7 @@ const BgBlur = styled.div`
 const Grad = styled.img`
   position: absolute;
   width: 3044px;
-  height: 90px;
+  height: 50px;
   top: 2px;
   left: 0;
 `;
@@ -44,15 +44,15 @@ const Grad = styled.img`
 const Line = styled.img`
   position: absolute;
   width: 1897px;
-  height: 90px;
+  height: 50px;
   top: 0;
   left: 0;
 `;
 
 const Crofful = styled.img`
   position: absolute;
-  width: 250px;
-  top: 21%;
+  width: 120px;
+  top: 23%;
   left: 19px;
 `;
 

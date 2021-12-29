@@ -11,7 +11,7 @@ const OverlapGroup = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 203px;
+  height: 150px;
   display: flex;
   padding: 51px 70px;
   min-width: 100%;
@@ -26,6 +26,7 @@ const CroffulgmailcomCo = styled.div`
   letter-spacing: 0;
   line-height: 32px;
   white-space: nowrap;
+  zoom: 70%;
   h1 {
     color: ${(p) => p.theme.color.blueviolet};
     font-family: "Noto Sans KR", sans-serif;

@@ -14,13 +14,13 @@ import minecraft from "../Components/img/minecraft-1@2x.png";
 
 const Page3 = styled.div`
   position: relative;
-  width: 200%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
   height: 1458px;
   min-width: 704px;
   background-size: 100% 100%;
-  align-items: center;
 `;
 
 const OverlapGroup4 = styled.div`

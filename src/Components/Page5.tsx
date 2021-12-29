@@ -9,7 +9,7 @@ const SubmitPage = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-width: 200%;
+  min-width: 100%;
 `;
 
 const OverlapGroup3 = styled.div`
