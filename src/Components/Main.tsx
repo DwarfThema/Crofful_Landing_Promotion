@@ -5,10 +5,7 @@ import View3 from "./Page3";
 import View4 from "./Page4";
 import View5 from "./Page5";
 
-const View = styled.div`
-  position: relative;
-  width: 50%;
-`;
+const View = styled.div``;
 
 function Main() {
   return (

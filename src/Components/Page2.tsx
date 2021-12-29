@@ -7,11 +7,11 @@ import butterfly from "../Components/img/butterfly@2x.png";
 
 const Page2 = styled.div`
   position: relative;
-  width: 200%;
   display: flex;
   flex-direction: column;
-  padding: 29.9px 40.7px;
   align-items: center;
+  width: 100%;
+  left: 50%;
   min-height: 1149px;
   background-size: 100% 100%;
 `;
