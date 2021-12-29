@@ -3,6 +3,7 @@ import bg5 from "../Components/img/bg5-1@1x.png";
 import inputbox from "../Components/img/inputbox-1@1x.png";
 import disagree from "../Components/img/check-1@2x.png";
 import agree from "../Components/img/chack-1@2x.png";
+import { useState } from "react";
 
 const SubmitPage = styled.div`
   height: 960px;
@@ -200,6 +201,11 @@ const Text2 = styled.div`
 `;
 
 function View5() {
+  const [useAgree, setAgree] = useState(false);
+  const fnAgree = () => {
+    setAgree(() => !useAgree);
+  };
+
   return (
     <>
       <SubmitPage>
@@ -216,12 +222,17 @@ function View5() {
             </View>
             <View2>
               <OverlapGroup1>
-                <Default>
+                <Default style={{ cursor: "pointer" }} onClick={fnAgree}>
                   <Check src={disagree} />
                 </Default>
-                <Agree>
-                  <Check src={agree} />
-                </Agree>
+                {useAgree ? (
+                  <>
+                    <Agree style={{ cursor: "pointer" }} onClick={fnAgree}>
+                      {" "}
+                      <Check src={agree} />{" "}
+                    </Agree>
+                  </>
+                ) : null}
               </OverlapGroup1>
               <Text2>개인정보 처리 방침에 동의합니다.</Text2>
             </View2>

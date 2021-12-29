@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import bg from "./img/bg1@1x.png";
 import logo from "./img/crofful@1x.png";
@@ -133,6 +134,32 @@ const Text1 = styled.h1`
 `;
 
 function View1() {
+  /*   const [useScrollY, setScrollY] = useState(0);
+  const handleFollow = () => {
+    setScrollY(window.pageYOffset);
+  }; */
+
+  /*   useEffect(() => {
+    console.log("ScrollY is ", useScrollY);
+  }, [useScrollY]); */
+
+  /*   useEffect(() => {
+    const watch = () => {
+      window.addEventListener("scroll", handleFollow);
+    };
+    watch(); // addEventListener 함수를 실행
+    return () => {
+      window.removeEventListener("scroll", handleFollow); // addEventListener 함수를 삭제
+    };
+  }); */
+
+  const handleBot = () => {
+    window.scrollTo({
+      top: 2548,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <Page1>
       <OverlapGroup1>
@@ -148,8 +175,10 @@ function View1() {
         <View>
           <OverlapGroup>
             <Shadow></Shadow>
-            <Button></Button>
-            <Text1>오픈 알림 신청하기</Text1>
+
+            <Button onClick={handleBot}>
+              <Text1>오픈 알림 신청하기</Text1>
+            </Button>
           </OverlapGroup>
         </View>
       </OverlapGroup1>
