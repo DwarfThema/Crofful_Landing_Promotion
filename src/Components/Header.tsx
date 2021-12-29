@@ -10,7 +10,7 @@ const FixedBar1 = styled.div`
   left: 0;
   z-index: 1;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   min-width: 3044px;
 `;
 
@@ -52,7 +52,7 @@ const Line = styled.img`
 const Crofful = styled.img`
   position: absolute;
   width: 120px;
-  top: 23%;
+  top: 22%;
   left: 19px;
 `;
 

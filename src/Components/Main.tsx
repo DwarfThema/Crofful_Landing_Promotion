@@ -6,7 +6,6 @@ import View4 from "./Page4";
 import View5 from "./Page5";
 
 const View = styled.div`
-  position: relative;
   zoom: 55%;
 `;
 

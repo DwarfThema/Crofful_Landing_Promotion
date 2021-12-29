@@ -2,18 +2,21 @@ import styled from "styled-components";
 
 const CopyrightPage = styled.div`
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
-  min-width: 100%;
+  min-width: 80%;
 `;
 
 const OverlapGroup = styled.div`
   display: flex;
+  position: relative;
+  bottom: 0;
   flex-direction: column;
   align-items: center;
   height: 150px;
   display: flex;
-  padding: 51px 70px;
+  padding: 51px 0;
   min-width: 100%;
   background-color: ${(p) => p.theme.color.minsk};
   box-shadow: 0px 15px 20px #653afd33;
