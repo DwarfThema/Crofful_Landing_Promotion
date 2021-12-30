@@ -25,7 +25,7 @@ const BgBlur = styled.div`
   position: absolute;
   width: 3044px;
   height: 50px;
-  top: 2px;
+  top: 0px;
   left: 0;
   background-color: ${(prop) => prop.theme.color.white3};
   backdrop-filter: blur(25px) brightness(100%);
@@ -37,7 +37,7 @@ const Grad = styled.img`
   position: absolute;
   width: 3044px;
   height: 50px;
-  top: 2px;
+  top: 0px;
   left: 0;
 `;
 

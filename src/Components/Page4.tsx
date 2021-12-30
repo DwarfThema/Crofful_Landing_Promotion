@@ -95,7 +95,7 @@ const OverlapGroup2 = styled.div`
 
 const Vector = styled.img`
   position: absolute;
-  width: 318px;
+  width: 358px;
   height: 108px;
   top: 116px;
   left: 0;
@@ -111,12 +111,12 @@ const Vector1 = styled.img`
 
 const Text1 = styled.p`
   color: ${(p) => p.theme.color.white};
-  font-size: ${(p) => p.theme.fontSize.xs};
+  font-size: 100%;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
   font-style: normal;
   position: absolute;
-  width: 229px;
+  width: 100%;
   top: 135px;
   left: 44px;
   letter-spacing: -0.65px;
@@ -125,12 +125,12 @@ const Text1 = styled.p`
 
 const Text2 = styled.p`
   color: ${(p) => p.theme.color.silver};
-  font-size: ${(p) => p.theme.fontSize.xs};
+  font-size: 100%;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
   font-style: normal;
   position: absolute;
-  width: 314px;
+  width: 100%;
   top: 19px;
   left: 72px;
   letter-spacing: -0.65px;
@@ -188,7 +188,7 @@ function View4() {
             <Text2>
               이번에 크리스마스 섬 꾸미신거 진짜 예뻐요!!!👍👍
               <br />
-              마이디자인도 올려주시는 것마다 취향저격 당하고 있습니당 💕
+              마이디자인도 올려주시는 것마다 취향입니당 💕
               <br />
               완전 팬이에요ㅎㅎ
             </Text2>

@@ -154,6 +154,7 @@ const OverlapGroup1 = styled.div`
   height: 24px;
   position: relative;
   border-radius: 11.97px;
+  padding: 15px;
 `;
 
 const Default = styled.div`
@@ -169,13 +170,6 @@ const Default = styled.div`
   border-radius: 11.97px;
 `;
 
-const Check = styled.img`
-  margin-top: 5.8px;
-  width: 17.5px;
-  height: 13px;
-  margin-left: 0;
-`;
-
 const Agree = styled.div`
   position: absolute;
   width: 24px;
@@ -185,7 +179,15 @@ const Agree = styled.div`
   display: flex;
   justify-content: center;
   background-color: ${(p) => p.theme.color.electricviolet};
-  border-radius: 90px;
+  border-radius: 11.97px;
+`;
+
+const Check = styled.img`
+  margin-top: 20%;
+  width: 17.5px;
+  height: 13px;
+  margin-left: 0;
+  border: 5px;
 `;
 
 const Text2 = styled.div`
@@ -221,18 +223,18 @@ function View5() {
               />
             </View>
             <View2>
-              <OverlapGroup1>
-                <Default style={{ cursor: "pointer" }} onClick={fnAgree}>
-                  <Check src={disagree} />
-                </Default>
+              <OverlapGroup1 style={{ cursor: "pointer" }} onClick={fnAgree}>
                 {useAgree ? (
                   <>
-                    <Agree style={{ cursor: "pointer" }} onClick={fnAgree}>
-                      {" "}
-                      <Check src={agree} />{" "}
+                    <Agree>
+                      <Check src={agree} />
                     </Agree>
                   </>
-                ) : null}
+                ) : (
+                  <Default>
+                    <Check src={disagree} />
+                  </Default>
+                )}
               </OverlapGroup1>
               <Text2>개인정보 처리 방침에 동의합니다.</Text2>
             </View2>
