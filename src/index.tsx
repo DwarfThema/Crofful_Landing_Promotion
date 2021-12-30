@@ -75,6 +75,13 @@ a {
   text-decoration:none;
   color:inherit;
 }
+.className {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.className::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
 `;
 
 ReactDOM.render(
