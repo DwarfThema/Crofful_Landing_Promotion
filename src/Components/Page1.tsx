@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import bg from "./img/bg1@1x.png";
 import logo from "./img/crofful@1x.png";
+import "scroll-behavior-polyfill";
 
 const Page1 = styled.div`
   display: flex;
@@ -137,25 +138,14 @@ function View1() {
   /*   const [useScrollY, setScrollY] = useState(0);
   const handleFollow = () => {
     setScrollY(window.pageYOffset);
-  }; */
-
-  /*   useEffect(() => {
+  };
+  useEffect(() => {
     console.log("ScrollY is ", useScrollY);
   }, [useScrollY]); */
 
-  /*   useEffect(() => {
-    const watch = () => {
-      window.addEventListener("scroll", handleFollow);
-    };
-    watch(); // addEventListener 함수를 실행
-    return () => {
-      window.removeEventListener("scroll", handleFollow); // addEventListener 함수를 삭제
-    };
-  }); */
-
   const handleBot = () => {
     window.scrollTo({
-      top: 2548,
+      top: 3000,
       behavior: "smooth",
     });
   };
