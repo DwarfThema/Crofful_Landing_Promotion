@@ -10,7 +10,7 @@ const Page1 = styled.div`
   height: 1636px;
   display: flex;
   padding: 0 0px;
-  margin-top: -220px;
+  margin-top: -100px;
   align-items: center;
   width: 100%;
 `;

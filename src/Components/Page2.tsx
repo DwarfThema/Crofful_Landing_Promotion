@@ -165,8 +165,8 @@ function View2() {
           </OverlapGroup>
           <X1>
             <OverlapGroup1>
-              <Shadow1 src={shadow16} />
-              <Shadow11 src={shadow17} />
+              <Shadow1 src={shadow17} />
+              <Shadow11 src={shadow16} />
               <Character src={character} />
             </OverlapGroup1>
             <Butterfly src={butterfly} />

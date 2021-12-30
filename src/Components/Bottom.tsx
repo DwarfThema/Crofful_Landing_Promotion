@@ -3,6 +3,7 @@ import styled from "styled-components";
 const CopyrightPage = styled.div`
   display: flex;
   position: relative;
+  top: 100%;
   flex-direction: column;
   align-items: center;
   min-width: 80%;

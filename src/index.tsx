@@ -63,12 +63,15 @@ table {
   box-sizing: border-box;
 }
 body {
+  position: relative;
   font-weight: 300;
   font-family: 'NanumSquare', sans-serif;
   line-height: 1.2;
   background-color: white;
   -ms-overflow-style: none;
   ::-webkit-scrollbar { display: none; }
+  width: 100%;
+  height: 100%;
   
 }
 a {
