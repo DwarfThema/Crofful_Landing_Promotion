@@ -116,7 +116,6 @@ const Text1 = styled.p`
   font-weight: 700;
   font-style: normal;
   position: absolute;
-  width: 100%;
   top: 135px;
   left: 44px;
   letter-spacing: -0.65px;
@@ -130,7 +129,6 @@ const Text2 = styled.p`
   font-weight: 700;
   font-style: normal;
   position: absolute;
-  width: 100%;
   top: 19px;
   left: 72px;
   letter-spacing: -0.65px;
@@ -182,13 +180,16 @@ function View4() {
             <Vector src={vector} />
             <Vector1 src={vector1} />
             <Text1>
-              항상 응원해주셔서 감사해요❣😊
-              <br />제 디자인을 좋아해주셔서 기분이&nbsp;&nbsp;좋네요ㅎㅎ
+              항상 응원해주셔서 감사해요
+              <span style={{ fontWeight: "500" }}> 😊</span>
+              <br />제 디자인을 좋아해주셔서 기분이 좋네요ㅎㅎ
             </Text1>
             <Text2>
-              이번에 크리스마스 섬 꾸미신거 진짜 예뻐요!!!👍👍
+              이번에 크리스마스 섬 꾸미신거 진짜 예뻐요!!!{" "}
+              <span style={{ fontWeight: "500" }}>👍👍</span>
               <br />
-              마이디자인도 올려주시는 것마다 취향입니당 💕
+              마이디자인도 올려주시는 것마다 취향입니당{" "}
+              <span style={{ fontWeight: "500" }}>💕</span>
               <br />
               완전 팬이에요ㅎㅎ
             </Text2>

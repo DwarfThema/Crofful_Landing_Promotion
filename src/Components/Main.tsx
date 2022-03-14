@@ -7,6 +7,10 @@ import View5 from "./Page5";
 
 const View = styled.div`
   zoom: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 function Main() {
