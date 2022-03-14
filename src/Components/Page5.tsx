@@ -57,13 +57,11 @@ const SNSCrofful = styled.div`
 const Text3 = styled.h1`
   color: ${(p) => p.theme.color.black};
   font-family: "Noto Sans KR", sans-serif;
-  font-size: ${(p) => p.theme.fontSize.xxxl};
+  font-size: 36px;
   font-weight: 800;
   font-style: normal;
-  width: 586px;
   margin-bottom: -36px;
   min-height: 48px;
-  align-self: flex-start;
   margin-top: 11px;
   text-align: center;
   letter-spacing: 0;
@@ -196,7 +194,7 @@ const Text2 = styled.div`
   font-size: ${(p) => p.theme.fontSize.xxs};
   font-weight: 400;
   font-style: normal;
-  width: 303px;
+  width: auto;
   min-height: 24px;
   margin-left: 8px;
   letter-spacing: 0;

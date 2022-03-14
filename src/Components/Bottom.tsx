@@ -57,7 +57,7 @@ function Bottom() {
               Crofful@gmail.com
               <br />
             </h1>
-            <h2>Copyright ⓒ 2021 Crofful. All Right Reserved.</h2>
+            <h2>Copyright ⓒ 2022 Crofful. All Right Reserved.</h2>
           </CroffulgmailcomCo>
         </OverlapGroup>
       </CopyrightPage>
