@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Crofful_Landing_Promotion/static/js/main.8e35d3a9.js",
+    "main.js": "/Crofful_Landing_Promotion/static/js/main.de75db4d.js",
     "static/media/bg1@1x.png": "/Crofful_Landing_Promotion/static/media/bg1@1x.58770b88e0de1cecf8cb.png",
     "static/media/bg5-1@1x.png": "/Crofful_Landing_Promotion/static/media/bg5-1@1x.d3dab5e1f18f81610767.png",
     "static/media/mockup2@1x.png": "/Crofful_Landing_Promotion/static/media/mockup2@1x.ef8595b8e2e2425c9f02.png",
@@ -26,9 +26,9 @@
     "static/media/shadow1-2@2x.png": "/Crofful_Landing_Promotion/static/media/shadow1-2@2x.71ef2889c41b1bf2f37f.png",
     "static/media/butterfly@2x.png": "/Crofful_Landing_Promotion/static/media/butterfly@2x.d8ef300609b4e3be107b.png",
     "index.html": "/Crofful_Landing_Promotion/index.html",
-    "main.8e35d3a9.js.map": "/Crofful_Landing_Promotion/static/js/main.8e35d3a9.js.map"
+    "main.de75db4d.js.map": "/Crofful_Landing_Promotion/static/js/main.de75db4d.js.map"
   },
   "entrypoints": [
-    "static/js/main.8e35d3a9.js"
+    "static/js/main.de75db4d.js"
   ]
 }
